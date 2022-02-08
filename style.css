@@ -41,9 +41,9 @@ body {
     background-color:#FFD166;
 }
 .bkg-fizzbuzz {
-    animation: scale 3s alternate infinite;
+    animation: scale 1s alternate infinite;
     background-color:#F1466F;
-    transition: 3s;
+    transition: 1s;
     
 }
 .bkg-standard {
