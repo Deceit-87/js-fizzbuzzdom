@@ -10,21 +10,18 @@ for (let i = 1; i < 101; i++){
     console.log(div);
 
     container.append(div);
-    const fizz = i
-    const buzz = i
-    const fizzBuzz = i
+i
 
-
-    if  (fizzBuzz % 3 == 0 && fizzBuzz % 5 == 0) {
-        div.append("FizzBuzz");
+    if  (i % 3 == 0 && i % 5 == 0) {
+        div.append('FizzBuzz');
         div.classList.add('bkg-fizzbuzz')
     }
-    else if (fizz % 3 == 0) {
-    div.append("Fizz");
+    else if (i % 3 == 0) {
+    div.append('Fizz');
     div.classList.add('bkg-fizz')
     }
-   else if  (buzz % 5 == 0) {
-        div.append("Buzz");
+   else if  (i % 5 == 0) {
+        div.append('Buzz');
         div.classList.add('bkg-buzz')
     }
     else {
